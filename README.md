@@ -15,7 +15,7 @@ Unzip the resulting file into the **root** of your USB drive. It might take a bi
 
 > What do I mean by the root of the USB? When you select your USB e.g. _D:_  there should be a number of different folders, a README file and a file called **start.bat** immediately visible. **You shouldn't have to click into any other folders first!**. 
 
-Double click on start.bat
+Double click on _start.bat_.
 
 A command prompt (terminal) will open it will say something like:-
 
@@ -27,10 +27,11 @@ Copyright (c) The PHP Group
 Zend Engine v4.2.35, Copyright (c) Zend Technologies
 v24.11.1
 ```
-- A second command prompt will open. Leave this open, you need it for Adminer
+A second command prompt will open. Leave this open, you need it for Adminer.
 
 The command prompt will already be in the _www_ folder, this is where you will create your web applications.
 
+Open the assignment folder in VS Code and you should be able to view the Laravel files. 
 
 ## Creating a Laravel App
 In the command prompt enter the following composer command 
@@ -63,7 +64,7 @@ SQLite is a simple relational database management system (RDBMS). Unlike systems
 
 Instead, the entire database is stored in a single file on your computer (usually with a .sqlite or .db extension).
 
-If we specify `DB_CONNECTION=sqlite` in our _.env_ file, Laravel will automatically create a database.sqlite file for us in _database/database.sqlite_. 
+If we specify `DB_CONNECTION=sqlite` in our _.env_ file, Laravel will automatically create a _database.sqlite_ file for us in _database/database.sqlite_. 
 
 We need to tell Adminer where to find this file. 
 
