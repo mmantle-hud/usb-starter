@@ -34,13 +34,13 @@ The command prompt will already be in the _www_ folder, this is where you will c
 Open the assignment folder in VS Code and you should be able to view the Laravel files. 
 
 ## Creating a Laravel App
-In the command prompt enter the following composer command 
+In the command prompt enter the following composer command:
 
 ```
 composer create-project laravel/laravel assignment "^12.0"
 ```
 
-It will take a bit of time for Composer to download and install the packages needed for Laravel. 
+You must use Laravel 12 (the version of PHP we are using in 8.2). It will take a bit of time for Composer to download and install the packages needed for Laravel. 
 
 Be patient, wait for it to finish.
 
